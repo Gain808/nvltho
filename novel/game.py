@@ -1,7 +1,5 @@
 import turtle as titi
 
-from nvltho.novel import MainCharacter
-
 titi.tracer(10)
 wi = titi.Turtle()
 wi.speed(0)
@@ -155,7 +153,7 @@ def clearBuy(wn):
     for ti in wn.turtles():
         ti.hideturtle()
 #Запись информации в файл
-def recordInfo(cm,gg:MainCharacter,ar,cl,va):
+def recordInfo(cm,gg,ar,cl,va):
     nameOfEnding='-'
     if gg.ending==1:
         nameOfEnding='Учёная'
